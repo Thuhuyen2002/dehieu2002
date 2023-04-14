@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0 50px;
+}
+header{
+    display: flex;
+    padding: 10px 0;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+}
+.header-left{
+    background:transparent;
+    padding: 10px 0px 10px 10px;
+    border: 1px solid rgb(201, 197, 197,0.5);
+    border-radius: 3px;
+}
+.header-left input{
+    outline: none;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    width: 60%;
+    border-right: 1px solid gray;
+    color: gray;
+}
+.header-left span{
+    border-right: 1px solid gray;
+    font-size: 14px;
+    padding: 0 5px;
+}
+.header-left i{
+    padding: 0 px;
+}
+.header-right button{
+    padding: 8px 15px;
+    border-radius: 5px;
+
+}
+.header-right button:first-child{
+    background: transparent;
+    color: gray;
+    border: 1px solid gray;
+}
+.header-right button:last-child{
+    background: green;
+    color: white;
+}
+nav{
+    width: 100%;
+}
+.menubar{
+    background: green;
+    padding: 15px 0px;
+}
+.menubar ul{
+    display: flex;
+    list-style: none;
+}
+.menubar ul li a{
+    padding: 15px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.menubar ul li a:hover{
+    background: rgb(142, 211, 125,0.5);
+}
+.banner img{
+    width: 100%;
+}
+.menubar ul li:nth-child(3){
+    position: relative;
+}
+.menubar ul li:nth-child(3) ul{
+    display: flex;
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    width: 150px;
+    top:30px;
+}
+.menubar ul li:nth-child(3):hover ul{
+    display: block;
+    background: green;
+}
+.menubar ul li:nth-child(3) ul li {
+    padding:15px 0px;
+}
+section{
+    margin-top: 30px;
+    background: white;
+}
+.title-productsale{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-bottom: 1px solid gray;
+    align-items: center;
+}
+.title-productsale-left{
+    padding:10px;
+    border-bottom: 2px solid green;
+}
+.items1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.item1{
+    width: 16%;
+    border: 1px solid rgb(189, 185, 185,0.8);
+    padding: 8px;
+}
+.item1 .image{
+    position: relative;
+}
+.item1 .image img:first-child{
+    width: 100%;
+    object-fit: cover;
+}
+.item1 .image img:last-child{
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.timesale-item1{
+    display: flex;
+    font-size: 11px;
+}
+.timesale-item1 span:first-child{
+    padding: 2px;
+    background: rgb(228, 115, 9);
+}
+.item1:hover{
+    border: 1px solid green;
+}

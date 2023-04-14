@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: gray;
+}
+.hotproduct{
+    background: pink;
+    width: 1000px;
+    margin: 50px auto ;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border-bottom: 1px solid gray;
+}
+.items{
+    margin-top: 5px;
+    max-width: 100%;
+    display: flex;
+
+}
+.item{
+    max-width: 25%;
+    border: 1px solid red;
+    padding: 5px;
+    margin-left: 10px;
+}
+.item-image{
+    max-width: 100%;
+    position: relative;
+}
+.item-image img{
+    max-width: 100%;
+    object-fit: cover;
+}
+.logo-sale{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 20%;
+}

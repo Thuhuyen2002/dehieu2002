@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 30px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    background:white;
+    color: gray;
+}
+.header-right{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-right .title-header i,span{
+    padding: 0px 15px;
+    font-size: 18px;
+}
+.header-right .icons-header{
+    display: flex;
+    align-items: center;
+}
+.header-right .icons-header i,img{
+    padding: 0 10px;
+    font-size: 18px;
+}

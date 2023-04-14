@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url(images/sulwhasoo.jpg);
+}
+.name{
+    color: white;
+    font-size: 25px;
+    font-family: NotoSans, Arial, Helvetica, sans-serif;
+}
